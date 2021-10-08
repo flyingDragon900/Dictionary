@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE ICONS LINKS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container">
+        <header>English Dictionary</header>
+
+        <!-- SEARCH AND INPUTS -->
+        <div class="search">
+            <input type="text" placeholder="search a word" required>
+            <span class="material-icons close-icon">close</span>
+            <span class="material-icons search-icon">search</span>
+        </div>
+        <p class="info-text">Type a word and press enter to get meaning example pronunciation and synonyms of that typed word</p>
+
+        <!-- WORDS DETAILS -->
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>happy</p>
+                    <span>adjective /'hapi/</span>
+                </div>
+                <span class="material-icons volume_up">volume_up</span>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>feeling and showing pleasure or contenment</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>Prakesh came in looking happy and excited</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list">
+                            <span>glad,</span>
+                            <span>contented,</span>
+                            <span>delighted,</span>
+                            <span>cheerful,</span>
+                            <span>joyful</span>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
